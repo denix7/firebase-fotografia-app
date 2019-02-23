@@ -13,6 +13,13 @@ import { FotografiaComponent } from './components/fotografia/fotografia.componen
 
 //router
 import { app_routing } from "./app.routes";
+
+//Servicio
+import { PortafolioService } from "./services/portafolio.service";
+
+//http
+import { HttpClientModule } from "@angular/common/http";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,9 +33,12 @@ import { app_routing } from "./app.routes";
   ],
   imports: [
     BrowserModule,
-    app_routing
+    app_routing,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    PortafolioService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
