@@ -2,6 +2,9 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
 import { Item } from "../models/item";
 
+//firebase
+import { AngularFirestore } from '@angular/fire/firestore';
+
 @Injectable({
   providedIn: 'root'
 })
@@ -12,7 +15,8 @@ export class PortafolioService {
   images:any[] = [];
 
 
-  constructor(public _http:HttpClient) {
+  constructor(public _http:HttpClient,
+              public db: AngularFirestore) {
 
    }
 
