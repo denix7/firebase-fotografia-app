@@ -27,6 +27,7 @@ import { AngularFirestoreModule, FirestoreSettingsToken } from '@angular/fire/fi
 import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { CargaComponent } from './components/carga/carga.component';
+import { NgDropFilesDirective } from './directives/ng-drop-files.directive';
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import { CargaComponent } from './components/carga/carga.component';
     IngresarComponent,
     PortafolioComponent,
     FotografiaComponent,
-    CargaComponent
+    CargaComponent,
+    NgDropFilesDirective
   ],
   imports: [
     BrowserModule,

@@ -10,6 +10,7 @@ import { CargaImagenesService } from '../../services/carga-imagenes.service';
 export class CargaComponent implements OnInit {
 
   archivos: FileItem[] = [];
+  estaSobreElemento: boolean = false;
   constructor(public _cargaImagenes: CargaImagenesService) { }
 
   ngOnInit() {
@@ -17,6 +18,11 @@ export class CargaComponent implements OnInit {
 
   cargarImagenes(){
     this._cargaImagenes.cargarImagenesFire(this.archivos);
+  }
+
+  pruebaSobreElemento(event){
+    //console.log(event);
+    this.estaSobreElemento = event;
   }
 
 }

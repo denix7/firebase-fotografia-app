@@ -21,6 +21,12 @@
 .text-big{
   font-size: 80px;
 }
+
+.file-over{
+  border: 2px solid red !important;
+  transform: scale(1.05) !important;
+}
+
 @keyframes move-left-right {
     0% {
       transform: translateX(-10px);
