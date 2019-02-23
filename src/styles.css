@@ -17,6 +17,10 @@
 
 /* navbar color */
 /* declare var $: any; */
+
+.text-big{
+  font-size: 80px;
+}
 @keyframes move-left-right {
     0% {
       transform: translateX(-10px);

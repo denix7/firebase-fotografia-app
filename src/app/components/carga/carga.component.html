@@ -1,0 +1,120 @@
+<section class="section section-lg section-coins animated fadeIn">
+    <img src="../assets/img/path3.png" class="path">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <hr class="line-info">
+          <h1>Subir
+            <span class="text-info">Imagenes al portafolio</span>
+          </h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card card-coin card-plain">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <h4 class="text-uppercase">Arrastrar archivos aqui</h4>
+                  <hr class="line-primary">
+                  <h4 class="text-big"><i class="tim-icons icon-image-02"></i></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <!-- Tabla de uploads -->
+        <div class="col-md-6">
+          <div class="card card-coin card-plain">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <h4 class="text-uppercase">Cargar archivos</h4>
+                  <hr class="line-info">
+                </div>
+              </div>
+              <div class="card-footer text-center">
+                <button (click)="cargarImagenes()" [disabled]="archivos.length ===0" class="btn btn-primary btn-simple"><i class="tim-icons icon-cloud-upload-94"></i> Subir</button>
+                <button class="btn btn-info btn-simple"><i class="tim-icons icon-simple-remove"></i> Limpiar</button>
+              </div>
+              <div class="row">
+                  <table class="table tablesorter" id="plain-table">
+                      <thead class=" text-primary">
+                        <tr>
+                          <th class="header">
+                            Nombre
+                          </th>
+                          <th class="header">
+                            Tamaño
+                          </th>
+                          <th class="header">
+                            Progreso
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            2014
+                          </td>
+                          <td>
+                            Colegio Merinol
+                          </td>
+                          <td>
+                            <div class="progress-container progress-primary">
+                                <span class="progress-badge">Primary</span>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                        <span class="progress-value">60%</span>
+                                    </div>
+                                </div>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            2021
+                          </td>
+                          <td>
+                            UMSS
+                          </td>
+                          <td>
+                            <div class="progress-container progress-primary">
+                                <span class="progress-badge">Primary</span>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                        <span class="progress-value">60%</span>
+                                    </div>
+                                </div>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            2022
+                          </td>
+                          <td>
+                            Maestria 
+                          </td>
+                          <td>
+                            <div class="progress-container progress-primary">
+                                <span class="progress-badge">Primary</span>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                        <span class="progress-value">60%</span>
+                                    </div>
+                                </div>
+                            </div>                            
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

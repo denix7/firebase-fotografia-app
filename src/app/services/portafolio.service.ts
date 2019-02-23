@@ -2,8 +2,6 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
 import { Item } from "../models/item";
 
-//firebase
-import { AngularFirestore } from '@angular/fire/firestore';
 
 @Injectable({
   providedIn: 'root'
@@ -11,12 +9,9 @@ import { AngularFirestore } from '@angular/fire/firestore';
 export class PortafolioService {
   urlPortafolio:string = "https://portafoliodennis-e5901.firebaseio.com/items.json";
   
-  info:any = {};
-  images:any[] = [];
+  //info:any = {};
 
-
-  constructor(public _http:HttpClient,
-              public db: AngularFirestore) {
+  constructor(public _http:HttpClient) {
 
    }
 
@@ -25,9 +20,9 @@ export class PortafolioService {
      return this._http.get(this.urlPortafolio);
    }
 
-   nuevoItem(item: Item){
-     let body = JSON.stringify(item);
-     return this._http.post(this.urlPortafolio, body);
-   }
+  //  nuevoItem(item: Item){
+  //    let body = JSON.stringify(item);
+  //    return this._http.post(this.urlPortafolio, body);
+  //  }
 
 }

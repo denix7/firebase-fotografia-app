@@ -26,6 +26,7 @@ import { environment } from '../environments/environment';
 import { AngularFirestoreModule, FirestoreSettingsToken } from '@angular/fire/firestore';
 import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireAuthModule } from '@angular/fire/auth';
+import { CargaComponent } from './components/carga/carga.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
     PerfilComponent,
     IngresarComponent,
     PortafolioComponent,
-    FotografiaComponent
+    FotografiaComponent,
+    CargaComponent
   ],
   imports: [
     BrowserModule,
