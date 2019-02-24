@@ -53,7 +53,7 @@ export class NgDropFilesDirective {
         if(this._archivoPuedeSerCargado(archivoTemporal)){  //Si el archivo puede ser cargado lo almacenamos en un arreglo
           const nuevoArchivo = new FileItem(archivoTemporal);//fileitem recibe el archivo temporal
           this.archivos.push(nuevoArchivo); //insertamos el archivo con su informacion al arreglo
-          //console.log(this.archivos);
+          console.log(this.archivos);
         }
       }
     }

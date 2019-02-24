@@ -25,4 +25,8 @@ export class CargaComponent implements OnInit {
     this.estaSobreElemento = event;
   }
 
+  limpiarArchivos(){
+    this.archivos = [];
+  }
+
 }
