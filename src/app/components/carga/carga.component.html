@@ -11,7 +11,11 @@
       </div>
       <div class="row">
         <div class="col-md-6">
-          <div appNgDropFiles (mouseSobre)="pruebaSobreElemento($event)" [ngClass]="{'file-over': estaSobreElemento}" class="card card-coin card-plain">
+          <div appNgDropFiles 
+              (mouseSobre)="pruebaSobreElemento($event)" 
+              [ngClass]="{'file-over': estaSobreElemento}"
+              [archivos] = archivos; 
+              class="card card-coin card-plain">
             <div class="card-body">
               <div class="row">
                 <div class="col-md-12 text-center">
