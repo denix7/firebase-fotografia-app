@@ -8,11 +8,13 @@ import { PortafolioService } from "../../services/portafolio.service";
 })
 export class PortafolioComponent implements OnInit {
   items:any[] = [];
+  loading: boolean = true;
   constructor(private _portafolioService:PortafolioService) {
 
     this._portafolioService.getItems()
         .subscribe(items =>{
           this.items = items as any;
+          this.loading = false;
         })
    }
 

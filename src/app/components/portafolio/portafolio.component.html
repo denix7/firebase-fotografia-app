@@ -1,5 +1,9 @@
-<section class="ae-container-fluid rk-main section section-lg section-coins animated fadeIn">
-    <img src="../assets/img/path3.png" class="path">
+<!-- Spinner -->
+<div class="spinner" *ngIf="loading">
+    <img src="../assets/img/spinner.svg" alt="">
+</div>
+
+<section *ngIf="!loading" class="ae-container-fluid rk-main section section-lg section-coins animated fadeIn">
     <div class="container">
       <div class="row">
         <div class="col-md-4">

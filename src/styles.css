@@ -27,6 +27,17 @@
   transform: scale(1.05) !important;
 }
 
+.spinner{
+  text-align: center;
+  margin-top: 15%;
+  height: 100vh;
+}
+@media (max-width: 576px) {
+  .spinner {
+    margin-top: 50%;
+  }
+}
+
 @keyframes move-left-right {
     0% {
       transform: translateX(-10px);
