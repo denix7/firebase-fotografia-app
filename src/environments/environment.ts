@@ -5,12 +5,12 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyDYjkXMjJ66k7Pnz7umetQuw1TajbTIZls",
-    authDomain: "portafoliodennis-e5901.firebaseapp.com",
-    databaseURL: "https://portafoliodennis-e5901.firebaseio.com",
-    projectId: "portafoliodennis-e5901",
-    storageBucket: "portafoliodennis-e5901.appspot.com",
-    messagingSenderId: "133092135041"
+    apiKey: "AIzaSyBYDFvxYLP1R22PSc1Wb1PKgbOKCSON8ig",
+    authDomain: "tris-portafolio.firebaseapp.com",
+    databaseURL: "https://tris-portafolio.firebaseio.com",
+    projectId: "tris-portafolio",
+    storageBucket: "tris-portafolio.appspot.com",
+    messagingSenderId: "718207262698"
   }
 };
 
