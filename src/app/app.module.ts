@@ -16,6 +16,7 @@ import { app_routing } from "./app.routes";
 
 //Servicio
 import { PortafolioService } from "./services/portafolio.service";
+import { InfoPaginaService } from "./services/info-pagina.service";
 
 //http
 import { HttpClientModule } from "@angular/common/http";
@@ -47,13 +48,13 @@ import { NgDropFilesDirective } from './directives/ng-drop-files.directive';
     BrowserModule,
     app_routing,
     HttpClientModule,
-    AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
     AngularFireStorageModule,
     AngularFireAuthModule
   ],
   providers: [
     PortafolioService,
+    InfoPaginaService,
     { provide: FirestoreSettingsToken, useValue: {} } //solucion timestampInSnapshot
   ],
   bootstrap: [AppComponent]

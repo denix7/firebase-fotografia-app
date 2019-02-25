@@ -1,4 +1,4 @@
-<div class="index-page animated fadeIn">
+<div class="index-page ae-container-fluid rk-main section section-lg animated fadeIn">
 <div class="wrapper">
     <div class="page-header">
       <img src="../assets/img/blob.png" class="path">
@@ -15,7 +15,7 @@
               <span class="text-white">Diseñadora Grafica</span>
             </h1>
 
-            <p class="text-white mb-3">Diseñadora freelance con mas de 3 años de experiencia, experta en diseño de marca empresarial, Community manager y branding</p>
+            <p class="text-white mb-3">{{_info.info.subtituloPresentacion}}</p>
             <div class="btn-wrapper mb-3">
               <!-- <p class="category text-success d-inline">Contactar</p> -->
               <!-- <a href="#blk" class="btn btn-success btn-link btn-sm"><i class="tim-icons icon-minimal-right"></i></a> -->
@@ -23,13 +23,13 @@
             </div>
             <div class="btn-wrapper">
               <div class="button-container">
-                <a href="https://twitter.com/Lunys7" class="btn btn-icon btn-simple btn-round btn-neutral" target="_blank">
+                <a [href]="_info.info.twitter" class="btn btn-icon btn-simple btn-round btn-neutral" target="_blank">
                   <i class="fab fa-twitter"></i>
                 </a>
-                <a href="https://www.instagram.com/lunysluna/?hl=es-la" class="btn btn-icon btn-simple btn-round btn-neutral" target="_blank">
+                <a [href]='_info.info.instagram' class="btn btn-icon btn-simple btn-round btn-neutral" target="_blank">
                   <i class="fab fa-instagram"></i>
                 </a>
-                <a href="javascriphttps://www.facebook.com/profile.php?id=100009509395686" class="btn btn-icon btn-simple btn-round btn-neutral" target="_blank">
+                <a href='{{_info.info.facebook}}' class="btn btn-icon btn-simple btn-round btn-neutral" target="_blank">
                   <i class="fab fa-facebook"></i>
                 </a>
               </div>
@@ -63,9 +63,9 @@
                         </div>
                         <div class="col-7 col-md-8">
                           <div class="numbers">
-                            <p class="card-title">3,237
+                            <p class="card-title">+1000
                               <p>
-                                <p class="card-category">Publicidad</p>
+                                <p class="card-category">{{_info.info.trabajo1}}</p>
                           </div>
                         </div>
                       </div>
@@ -83,9 +83,9 @@
                         </div>
                         <div class="col-7 col-md-8">
                           <div class="numbers">
-                            <p class="card-title">3,653
+                            <p class="card-title">+200
                               <p>
-                                <p class="card-category">Branding</p>
+                                <p class="card-category">{{_info.info.trabajo2}}</p>
                           </div>
                         </div>
                       </div>
@@ -105,9 +105,9 @@
                         </div>
                         <div class="col-7 col-md-8">
                           <div class="numbers">
-                            <p class="card-title">593
+                            <p class="card-title">+50
                               <p>
-                                <p class="card-category">Comunity manager</p>
+                                <p class="card-category">{{_info.info.trabajo3}}</p>
                           </div>
                         </div>
                       </div>
@@ -127,7 +127,7 @@
                           <div class="numbers">
                             <p class="card-title">10,783
                               <p>
-                                <p class="card-category">Marca empresarial</p>
+                                <p class="card-category">{{_info.info.trabajo4}}</p>
                           </div>
                         </div>
                       </div>
