@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FotografiaService } from '../../services/fotografia.service';
 
 @Component({
   selector: 'app-fotografia',
@@ -7,7 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FotografiaComponent implements OnInit {
 
-  constructor() { }
+  fotos:any[]=[];
+  loading:boolean = true;
+  constructor(public _fotos: FotografiaService) {
+    
+    this._fotos.getFotos()
+          .subscribe((fotos:any) =>{
+            this.fotos = fotos;
+            this.loading = false;
+            console.log(fotos);
+          }) 
+  }
 
   ngOnInit() {
   }
