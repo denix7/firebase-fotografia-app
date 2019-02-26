@@ -13,7 +13,7 @@ export class InfoPaginaService {
 
     this._http.get('https://tris-portafolio.firebaseio.com/infoPagina.json')
                .subscribe((info:Info) => {
-                 //console.log(info)
+                 console.log(info)
                  this.info = info;
                })
    }

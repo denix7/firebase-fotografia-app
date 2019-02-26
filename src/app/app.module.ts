@@ -31,6 +31,9 @@ import { CargaComponent } from './components/carga/carga.component';
 import { NgDropFilesDirective } from './directives/ng-drop-files.directive';
 
 
+//ScrollReveal
+import { NgsRevealModule } from "ngx-scrollreveal";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -50,7 +53,8 @@ import { NgDropFilesDirective } from './directives/ng-drop-files.directive';
     HttpClientModule,
     AngularFirestoreModule,
     AngularFireStorageModule,
-    AngularFireAuthModule
+    AngularFireAuthModule,
+    NgsRevealModule
   ],
   providers: [
     PortafolioService,

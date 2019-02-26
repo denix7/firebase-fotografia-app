@@ -22,6 +22,10 @@
   font-size: 80px;
 }
 
+.primary-color{
+  color: #E14ECA;
+}
+
 .file-over{
   border: 2px solid red !important;
   transform: scale(1.05) !important;

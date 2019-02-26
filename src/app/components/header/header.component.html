@@ -1,7 +1,7 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg fixed-top navbar-transparent " color-on-scroll="100">
     <div class="container">
-      <div class="navbar-translate">
+      <div class="navbar-translate" [ngsReveal]="{ reset: false , delay:400, origin:left, distance:'0', duration:1000}">
         <a class="navbar-brand" [routerLink]="['/']" routerLinkActive="router-link-active"  rel="tooltip" title="Diseño de marca" data-placement="bottom">
           <span><img src="../assets/img/LOGOBRANDING.png" width="70" height="30"></span> {{_info.info.titulo}}
           <!-- <span>TRIS <i class="tim-icons icon-heart-2"></i></span> Diseño Grafico -->

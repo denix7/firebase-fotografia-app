@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { InfoPaginaService } from '../../services/info-pagina.service';
 
 @Component({
   selector: 'app-perfil',
@@ -7,8 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PerfilComponent implements OnInit {
 
-  constructor() { }
-
+  educacion:any[] = [];
+  constructor(public _info: InfoPaginaService) {
+    this.educacion=_info.info.educacion;
+  }
   ngOnInit() {
   }
 
