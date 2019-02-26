@@ -1,5 +1,5 @@
 export interface Info {
-  educacion?: (null | string)[];
+  educacion?: (Educacion | string)[];
   email?: string;
   facebook?: string;
   github?: string;
@@ -10,7 +10,17 @@ export interface Info {
   servicio2?: string;
   servicio3?: string;
   subtituloPresentacion?: string;
+  telefono?: string;
   titulo?: string;
   tituloPresentacion?: string;
+  trabajo1?: string;
+  trabajo2?: string;
+  trabajo3?: string;
+  trabajo4?: string;
   twitter?: string;
+}
+
+interface Educacion {
+  'año': number;
+  institucion: string;
 }
