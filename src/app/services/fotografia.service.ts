@@ -6,7 +6,7 @@ import { HttpClient } from "@angular/common/http";
 })
 export class FotografiaService {
 
-  urlFotos:string = "https://tris-portafolio.firebaseio.com/fotografia.json";
+  urlFotos:string = "https://tris-portafolio-5162e.firebaseio.com/fotografias.json";
   
   constructor(public _http: HttpClient) { }
     
