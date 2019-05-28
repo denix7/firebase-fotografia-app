@@ -18,6 +18,10 @@
 /* navbar color */
 /* declare var $: any; */
 
+boddy{
+  background: #fb83a7; background: -moz-linear-gradient(45deg,  #fb83a7 0%,#fdd29e 100%); background: -webkit-linear-gradient(45deg,  #fb83a7 0%,#fdd29e 100%); background: linear-gradient(45deg,  #fb83a7 0%,#fdd29e 100%) !important;
+}
+
 .text-big{
   font-size: 80px;
 }
