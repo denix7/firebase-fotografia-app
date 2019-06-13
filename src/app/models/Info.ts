@@ -11,6 +11,7 @@ export interface Info {
   twitter?: string;
   ciudad?: string;
   pais?: string;
+  direccion?: string;
 }
 
 interface Educacion {

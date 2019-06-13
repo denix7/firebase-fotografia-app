@@ -1,0 +1,103 @@
+{
+  "educacion" : [ {
+    "nombre" : "Santa Luisa de Marillac",
+    "year" : 2016
+  }, {
+    "nombre" : "Alvarez Plata",
+    "year" : 2017
+  }, {
+    "nombre" : "Universidad Mayor de San Simon",
+    "year" : 2018
+  } ],
+  "fotografias" : [ {
+    "imagen" : "https://firebasestorage.googleapis.com/v0/b/tris-portafolio-5162e.appspot.com/o/fotografia%2Fcascadas.jpg?alt=media&token=470e05a5-da71-4bca-9a99-503ab7da276e",
+    "titulo" : "Cascada"
+  }, {
+    "imagen" : "https://firebasestorage.googleapis.com/v0/b/tris-portafolio-5162e.appspot.com/o/fotografia%2Fatardecer.jpg?alt=media&token=4ad13ad0-9801-4a7c-a4f2-594f5aa23afa",
+    "titulo" : "Atardecer"
+  }, {
+    "imagen" : "https://firebasestorage.googleapis.com/v0/b/tris-portafolio-5162e.appspot.com/o/fotografia%2Flago.jpg?alt=media&token=57823a7b-8774-430e-84bf-8c425c7ad7c5",
+    "titulo" : "Lago"
+  }, {
+    "imagen" : "https://firebasestorage.googleapis.com/v0/b/tris-portafolio-5162e.appspot.com/o/fotografia%2Fsimetria.jpg?alt=media&token=273c3af5-1f41-4fc6-943c-4a0d5d4b44a3",
+    "titulo" : "Simetric"
+  }, {
+    "imagen" : "https://firebasestorage.googleapis.com/v0/b/tris-portafolio-5162e.appspot.com/o/fotografia%2Fvivomuerto.jpg?alt=media&token=ac31d1e8-d89a-46ec-84fb-aa0ee22077f1",
+    "titulo" : "Vivo y Muerto"
+  } ],
+  "home" : {
+    "seccion1Subtitulo" : "Ill should be capable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.",
+    "seccion1Titulo" : "Trabajos Profesionales",
+    "seccion1cuadro1Subtitulo" : "+ 500",
+    "seccion1cuadro1Titulo" : "Publicidad",
+    "seccion1cuadro2Subtitulo" : "+ 20",
+    "seccion1cuadro2Titulo" : "Branding",
+    "seccion1cuadro3Subtitulo" : "+ 15",
+    "seccion1cuadro3Titulo" : "Community Manager",
+    "seccion1cuadro4Subtitulo" : 8,
+    "seccion1cuadro4Titulo" : "Marca Empresarial",
+    "seccion2Subtitulo" : "   ",
+    "seccion2Titulo" : "Servicios",
+    "seccion2cuadro1Subtitulo" : "Divide details about your work into parts. Write a few lines about each one. A paragraph describing a feature .",
+    "seccion2cuadro1Titulo" : "Precios Accesibles",
+    "seccion2cuadro2Subtitulo" : "Divide about your product or agency work into parts. Write a few lines about each one. A paragraph describing feature will be a feature.",
+    "seccion2cuadro2Titulo" : "Trabajos Pequeños",
+    "seccion2cuadro3Subtitulo" : "Divide about your product or agency work into parts. Write a few lines about each one. A paragraph describing be enough.",
+    "seccion2cuadro3Titulo" : "Alta Experiencia",
+    "seccion3Titulo" : "Trabajos a medida",
+    "seccion3cuadro1Subtitulo" : "Personal",
+    "seccion3cuadro1Titulo" : "100 %",
+    "seccion3cuadro2Subtitulo" : "Clientes satisfechos",
+    "seccion3cuadro2Titulo" : "50 +",
+    "seccion3cuadro3Subtitulo" : "Empresas",
+    "seccion3cuadro3Titulo" : "10 +",
+    "seccion3subTitulo" : "The design comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go.",
+    "seccion3subtitulo1" : "Diseños creados cuidadosamente",
+    "seccion3subtitulo2" : "Catalogo de productos",
+    "seccion3subtitulo3" : "Diseños amigables",
+    "subtitulo" : "Diseñadora freelance con mas de 3 años de experiencia, experta en diseño de marca empresarial, Community manager y branding",
+    "titulo" : "Hola soy Patricia! Diseñadora Grafica"
+  },
+  "info" : {
+    "behance" : "  ",
+    "ciudad" : "Cochabamba",
+    "direccion" : "Av. Suecia y Miraflores",
+    "dribbble" : "asdfasdf",
+    "email" : "lunys@gmail.com",
+    "facebook" : "https://www.facebook.com/profile.php?id=100009509395686",
+    "instagram" : "https://www.instagram.com/lunysluna/?hl=es-la",
+    "logotexto" : "Graphic Designer",
+    "nickName" : "Tris",
+    "nombre" : "Tris",
+    "pais" : "Bolivia",
+    "telefono" : "+591 0000000",
+    "twitter" : "https://twitter.com/Lunys7"
+  },
+  "perfil" : {
+    "frase" : "Me encanta este trabajo porque cada día es diferente, desafiante, y requiere habilidades creatividad.",
+    "nombre" : "Lunys Luna",
+    "subtitulo1" : "Soy una diseñadora con sede en Cochabamba. Tuve la oportunidad de trabajar con equipos increíbles en algunas agencias y startups desde 5 años, en Cochabamba y todo el pais. Antes de eso, fui a empece con proyectos pequeños para empresas, y en la universidad. Mi trabajo de diseño se basa en la comprensión de las necesidades y objetivos de los clientes y usuarios. Desde los wireframes hasta el diseño, me gusta explorar y definir la solución de diseño adecuada. Manteniendo el sistema de diseño, la arquitectura de la información y la red en mente Para cualquier marca, proyecto de diseño de producto, no dude en contactarme",
+    "subtitulo2" : "Para un pequeño resumen del tipo de cosas que hago, puede ver mi cartera a continuación",
+    "titulo1" : "Quien",
+    "titulo11" : "Soy",
+    "titulo2" : "Que ",
+    "titulo22" : "Hago"
+  },
+  "portafolio" : [ {
+    "imagen" : "https://firebasestorage.googleapis.com/v0/b/tris-portafolio-5162e.appspot.com/o/portafolio%2Fhormiguero%20de%20hormigas%201.png%20-%20Photos.jpg?alt=media&token=d2ac874f-cd2f-49e7-b58d-af226a30988b",
+    "subtitulo" : "Adobe Ilustrator",
+    "titulo" : "Hormiguero"
+  }, {
+    "imagen" : "https://firebasestorage.googleapis.com/v0/b/tris-portafolio-5162e.appspot.com/o/portafolio%2Fhormiga.jpg?alt=media&token=71d6c6b0-54d0-4f8f-b6dd-ecfdcdebf559",
+    "subtitulo" : "Adobe Ilustrator",
+    "titulo" : "hormiga"
+  }, {
+    "imagen" : "https://firebasestorage.googleapis.com/v0/b/tris-portafolio-5162e.appspot.com/o/portafolio%2Fescarabjo.jpg?alt=media&token=9f11b63e-d399-4b97-a9fc-8547917a060f",
+    "subtitulo" : "Adobe Ilustrator",
+    "titulo" : "Escarabajo"
+  }, {
+    "imagen" : "https://firebasestorage.googleapis.com/v0/b/tris-portafolio-5162e.appspot.com/o/portafolio%2Farania.jpg?alt=media&token=b4cbb87c-80b2-4e98-b816-96f23d592b2b",
+    "subtitulo" : "Adobe Ilustrator",
+    "titulo" : "Araña"
+  } ]
+}
