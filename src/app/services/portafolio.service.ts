@@ -7,7 +7,7 @@ import { Item } from "../models/item";
   providedIn: 'root'
 })
 export class PortafolioService {
-  urlPortafolio:string = "https://portafoliodennis-e5901.firebaseio.com/items.json";
+  urlPortafolio:string = "https://tris-portafolio-5162e.firebaseio.com/portafolio.json";
   
   //info:any = {};
 
