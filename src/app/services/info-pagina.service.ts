@@ -11,7 +11,7 @@ export class InfoPaginaService {
 
   constructor(public _http:HttpClient) {
 
-    this._http.get('https://tris-portafolio.firebaseio.com/infoPagina.json')
+    this._http.get('https://tris-portafolio-5162e.firebaseio.com/info.json')
                .subscribe((info:Info) => {
                  //console.log(info)
                  this.info = info;

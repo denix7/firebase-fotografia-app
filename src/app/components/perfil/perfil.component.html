@@ -6,13 +6,9 @@
         <div class="container align-items-center">
           <div class="row">
             <div class="col-lg-6 col-md-6" [ngsReveal]="{ reset: true , delay:300, origin:'left', distance:'0', duration:1000}">
-              <h1 class="profile-title text-left">Soy</h1>
-              <h5 class="text-on-back">Quien</h5>
-              <p class="profile-description">Soy una diseñadora con sede en Cochabamba. Tuve la oportunidad de trabajar con equipos increíbles en algunas agencias y startups desde 5 años, en Cochabamba y todo el pais. Antes de eso, fui a empece con proyectos pequeños para empresas, y en la universidad.
-
-                  Mi trabajo de diseño se basa en la comprensión de las necesidades y objetivos de los clientes y usuarios. Desde los wireframes hasta el diseño, me gusta explorar y definir la solución de diseño adecuada. Manteniendo el sistema de diseño, la arquitectura de la información y la red en mente
-                  
-                  Para cualquier marca, proyecto de diseño de producto, no dude en contactarme></p>
+              <h1 class="profile-title text-left">{{perfil.titulo11}}</h1>
+              <h5 class="text-on-back">{{perfil.titulo1}}</h5>
+              <p class="profile-description">{{perfil.subtitulo1}}</p>
             </div>
 
             <!-- Tarjeta -->
@@ -20,7 +16,7 @@
               <div class="card card-coin card-plain">
                 <div class="card-header">
                   <img src="../assets/img/foto.jpg" class="img-center img-fluid rounded-circle">
-                  <h4 class="title">Lunys</h4>
+                  <h4 class="title">{{perfil.nombre}}</h4>
                 </div>
                 <div class="card-body">
                   <ul class="nav nav-tabs nav-tabs-primary justify-content-center">
@@ -50,28 +46,12 @@
                             </tr>
                           </thead>
                           <tbody>
-                            <tr>
+                            <tr *ngFor= "let item of educacion">
                               <td>
-                                2014
+                                {{item.year}}
                               </td>
                               <td>
-                                Colegio Merinoll
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                2016
-                              </td>
-                              <td>
-                                Alvarez Plata
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                2017
-                              </td>
-                              <td>
-                                Diseño grafico UMSS
+                                {{item.nombre}}
                               </td>
                             </tr>
                           </tbody>
@@ -83,41 +63,11 @@
                     <div class="tab-pane" id="linkb">
                       <div class="row">
                         <div class="col-sm-12">
-                        <label class="col-form-label">Me encanta este trabajo porque cada día es diferente, desafiante, y requiere habilidades creatividad.</label>
-                        <span class="float-right">Lunys</span>  
+                        <label class="col-form-label">{{perfil.frase}}</label>
+                        <span class="float-right">{{_info.info.nickName}}</span>  
                         </div>
                       </div>
                       <button type="submit" class="btn btn-simple btn-primary btn-icon btn-round float-right"><i class="tim-icons icon-heart-2"></i></button>
-                    </div>
-                    <div class="tab-pane" id="linkc">
-                      <div class="">
-                        <table class="table tablesorter " id="plain-table">
-                          <thead class=" text-primary">
-                            <tr>
-                              <th class="header">
-                                Latest Crypto News
-                              </th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td>
-                                The Daily: Nexo to Pay on Stable...
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                Venezuela Begins Public of Nation...
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                PR: BitCanna – Dutch Blockchain...
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -169,9 +119,9 @@
               </div>
             </div>
             <div class="col-md-5">
-              <h1 class="profile-title text-left">Hago</h1>
-              <h5 class="text-on-back">Que</h5>
-              <p class="profile-description text-left">Para un pequeño resumen del tipo de cosas que hago, puede ver mi cartera a continuación.</p>
+              <h1 class="profile-title text-left">{{perfil.titulo22}}</h1>
+              <h5 class="text-on-back">{{perfil.titulo2}}</h5>
+              <p class="profile-description text-left">{{perfil.subtitulo2}}</p>
               <div class="btn-wrapper pt-3">
                 <button [routerLink]="['/portafolio']" routerLinkActive="router-link-active"  class="btn btn-simple btn-primary">
                   <i class="tim-icons icon-book-bookmark"></i> Portafolio
@@ -207,7 +157,7 @@
                       <div class="col-md-6">
                         <div class="form-group">
                           <label>Correo</label>
-                          <input type="email" class="form-control" placeholder="dennis@email.com">
+                          <input type="email" class="form-control" placeholder="ejemplo@email.com">
                         </div>
                       </div>
                     </div>
@@ -221,7 +171,7 @@
                       <div class="col-md-6">
                         <div class="form-group">
                           <label>Empresa</label>
-                          <input type="text" class="form-control" value="" placeholder="Truextend">
+                          <input type="text" class="form-control" value="" placeholder="">
                         </div>
                       </div>
                     </div>
@@ -245,9 +195,9 @@
                 </div>
                 <div class="description">
                   <h4 class="info-title">Direccion</h4>
-                  <p> Av. Suecia y Miraflores,
-                    <br> Cochabamba,
-                    <br> Bolivia
+                  <p> {{_info.info.direccion}},
+                    <br> {{_info.info.ciudad}},
+                    <br> {{_info.info.pais}}
                   </p>
                 </div>
               </div>
@@ -258,7 +208,7 @@
                 <div class="description">
                   <h4 class="info-title">Llamame</h4>
                   <p> Whatsapp
-                    <br> +591 0000000
+                    <br> {{_info.info.telefono}}
                     <br> Lun - Vie, 8:00-20:00
                   </p>
                 </div>

@@ -16,7 +16,6 @@ export class FotografiaComponent implements OnInit {
           .subscribe((fotos:any) =>{
             this.fotos = fotos;
             this.loading = false;
-            console.log(fotos);
           }) 
   }
 

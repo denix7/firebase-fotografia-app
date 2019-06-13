@@ -1,23 +1,16 @@
 export interface Info {
-  educacion?: (Educacion | string)[];
   email?: string;
+  dribble?: string;
+  behance?: string;
   facebook?: string;
-  github?: string;
   instagram?: string;
   nickName?: string;
   nombre?: string;
-  servicio1?: string;
-  servicio2?: string;
-  servicio3?: string;
-  subtituloPresentacion?: string;
+  logotexto?: string;
   telefono?: string;
-  titulo?: string;
-  tituloPresentacion?: string;
-  trabajo1?: string;
-  trabajo2?: string;
-  trabajo3?: string;
-  trabajo4?: string;
   twitter?: string;
+  ciudad?: string;
+  pais?: string;
 }
 
 interface Educacion {
