@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HomePaginaService } from '../../services/home-pagina.service';
 import { InfoPaginaService } from '../../services/info-pagina.service';
 
 @Component({
@@ -8,7 +9,7 @@ import { InfoPaginaService } from '../../services/info-pagina.service';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(public _info: InfoPaginaService) { }
+  constructor(public _home: HomePaginaService, public _info:InfoPaginaService) { }
 
   ngOnInit() {
   }
